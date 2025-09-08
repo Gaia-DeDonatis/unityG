@@ -13,6 +13,6 @@ public class Muvingcube : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += Vector3.forward * 0.5f * Time.deltaTime;
+        transform.position += Vector3.forward * 0.8f * Time.deltaTime;
     }
 }
